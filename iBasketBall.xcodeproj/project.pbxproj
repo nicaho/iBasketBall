@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0405866D1783CCDC00292B11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0405866C1783CCDB00292B11 /* UIKit.framework */; };
+		0405866F1783CCDC00292B11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0405866E1783CCDC00292B11 /* Foundation.framework */; };
+		040586711783CCDC00292B11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040586701783CCDC00292B11 /* CoreGraphics.framework */; };
+		040586771783CCDC00292B11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 040586751783CCDC00292B11 /* InfoPlist.strings */; };
+		040586791783CCDC00292B11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040586781783CCDC00292B11 /* main.m */; };
+		0405867D1783CCDC00292B11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405867C1783CCDC00292B11 /* AppDelegate.m */; };
+		0405867F1783CCDC00292B11 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0405867E1783CCDC00292B11 /* Default.png */; };
+		040586811783CCDC00292B11 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 040586801783CCDC00292B11 /* Default@2x.png */; };
+		040586831783CCDC00292B11 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 040586821783CCDC00292B11 /* Default-568h@2x.png */; };
+		040586861783CCDC00292B11 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040586841783CCDC00292B11 /* MainStoryboard.storyboard */; };
+		040586891783CCDC00292B11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040586881783CCDC00292B11 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040586691783CCDB00292B11 /* iBasketBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBasketBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0405866C1783CCDB00292B11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0405866E1783CCDC00292B11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		040586701783CCDC00292B11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		040586741783CCDC00292B11 /* iBasketBall-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBasketBall-Info.plist"; sourceTree = "<group>"; };
+		040586761783CCDC00292B11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		040586781783CCDC00292B11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0405867A1783CCDC00292B11 /* iBasketBall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBasketBall-Prefix.pch"; sourceTree = "<group>"; };
+		0405867B1783CCDC00292B11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0405867C1783CCDC00292B11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0405867E1783CCDC00292B11 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		040586801783CCDC00292B11 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		040586821783CCDC00292B11 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		040586851783CCDC00292B11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		040586871783CCDC00292B11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		040586881783CCDC00292B11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040586661783CCDB00292B11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0405866D1783CCDC00292B11 /* UIKit.framework in Frameworks */,
+				0405866F1783CCDC00292B11 /* Foundation.framework in Frameworks */,
+				040586711783CCDC00292B11 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040586601783CCDB00292B11 = {
+			isa = PBXGroup;
+			children = (
+				040586721783CCDC00292B11 /* iBasketBall */,
+				0405866B1783CCDB00292B11 /* Frameworks */,
+				0405866A1783CCDB00292B11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0405866A1783CCDB00292B11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040586691783CCDB00292B11 /* iBasketBall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0405866B1783CCDB00292B11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0405866C1783CCDB00292B11 /* UIKit.framework */,
+				0405866E1783CCDC00292B11 /* Foundation.framework */,
+				040586701783CCDC00292B11 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		040586721783CCDC00292B11 /* iBasketBall */ = {
+			isa = PBXGroup;
+			children = (
+				0405867B1783CCDC00292B11 /* AppDelegate.h */,
+				0405867C1783CCDC00292B11 /* AppDelegate.m */,
+				040586841783CCDC00292B11 /* MainStoryboard.storyboard */,
+				040586871783CCDC00292B11 /* ViewController.h */,
+				040586881783CCDC00292B11 /* ViewController.m */,
+				040586731783CCDC00292B11 /* Supporting Files */,
+			);
+			path = iBasketBall;
+			sourceTree = "<group>";
+		};
+		040586731783CCDC00292B11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				040586741783CCDC00292B11 /* iBasketBall-Info.plist */,
+				040586751783CCDC00292B11 /* InfoPlist.strings */,
+				040586781783CCDC00292B11 /* main.m */,
+				0405867A1783CCDC00292B11 /* iBasketBall-Prefix.pch */,
+				0405867E1783CCDC00292B11 /* Default.png */,
+				040586801783CCDC00292B11 /* Default@2x.png */,
+				040586821783CCDC00292B11 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040586681783CCDB00292B11 /* iBasketBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0405868C1783CCDC00292B11 /* Build configuration list for PBXNativeTarget "iBasketBall" */;
+			buildPhases = (
+				040586651783CCDB00292B11 /* Sources */,
+				040586661783CCDB00292B11 /* Frameworks */,
+				040586671783CCDB00292B11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBasketBall;
+			productName = iBasketBall;
+			productReference = 040586691783CCDB00292B11 /* iBasketBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040586611783CCDB00292B11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = dyage;
+			};
+			buildConfigurationList = 040586641783CCDB00292B11 /* Build configuration list for PBXProject "iBasketBall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 040586601783CCDB00292B11;
+			productRefGroup = 0405866A1783CCDB00292B11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040586681783CCDB00292B11 /* iBasketBall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040586671783CCDB00292B11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040586771783CCDC00292B11 /* InfoPlist.strings in Resources */,
+				0405867F1783CCDC00292B11 /* Default.png in Resources */,
+				040586811783CCDC00292B11 /* Default@2x.png in Resources */,
+				040586831783CCDC00292B11 /* Default-568h@2x.png in Resources */,
+				040586861783CCDC00292B11 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040586651783CCDB00292B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040586791783CCDC00292B11 /* main.m in Sources */,
+				0405867D1783CCDC00292B11 /* AppDelegate.m in Sources */,
+				040586891783CCDC00292B11 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		040586751783CCDC00292B11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040586761783CCDC00292B11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		040586841783CCDC00292B11 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040586851783CCDC00292B11 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0405868A1783CCDC00292B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0405868B1783CCDC00292B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0405868D1783CCDC00292B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBasketBall/iBasketBall-Prefix.pch";
+				INFOPLIST_FILE = "iBasketBall/iBasketBall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0405868E1783CCDC00292B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBasketBall/iBasketBall-Prefix.pch";
+				INFOPLIST_FILE = "iBasketBall/iBasketBall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040586641783CCDB00292B11 /* Build configuration list for PBXProject "iBasketBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0405868A1783CCDC00292B11 /* Debug */,
+				0405868B1783CCDC00292B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0405868C1783CCDC00292B11 /* Build configuration list for PBXNativeTarget "iBasketBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0405868D1783CCDC00292B11 /* Debug */,
+				0405868E1783CCDC00292B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040586611783CCDB00292B11 /* Project object */;
+}
