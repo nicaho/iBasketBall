@@ -11,16 +11,13 @@
 		0405866F1783CCDC00292B11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0405866E1783CCDC00292B11 /* Foundation.framework */; };
 		040586711783CCDC00292B11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040586701783CCDC00292B11 /* CoreGraphics.framework */; };
 		040586771783CCDC00292B11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 040586751783CCDC00292B11 /* InfoPlist.strings */; };
-		040586791783CCDC00292B11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040586781783CCDC00292B11 /* main.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		0405867D1783CCDC00292B11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405867C1783CCDC00292B11 /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		040586791783CCDC00292B11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040586781783CCDC00292B11 /* main.m */; };
+		0405867D1783CCDC00292B11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405867C1783CCDC00292B11 /* AppDelegate.m */; };
 		0405867F1783CCDC00292B11 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0405867E1783CCDC00292B11 /* Default.png */; };
 		040586811783CCDC00292B11 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 040586801783CCDC00292B11 /* Default@2x.png */; };
 		040586831783CCDC00292B11 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 040586821783CCDC00292B11 /* Default-568h@2x.png */; };
 		040586861783CCDC00292B11 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040586841783CCDC00292B11 /* MainStoryboard.storyboard */; };
-		040586891783CCDC00292B11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040586881783CCDC00292B11 /* ViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		048B57781785003400EB6175 /* meng.png in Resources */ = {isa = PBXBuildFile; fileRef = 048B57771785003400EB6175 /* meng.png */; };
-		048B577B17850A4C00EB6175 /* UIViewController+Controls.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B577A17850A4C00EB6175 /* UIViewController+Controls.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		04B9D31617854A4B0050BFF4 /* meng2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B9D31517854A4B0050BFF4 /* meng2.png */; };
+		040586891783CCDC00292B11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040586881783CCDC00292B11 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,10 +37,6 @@
 		040586851783CCDC00292B11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		040586871783CCDC00292B11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		040586881783CCDC00292B11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		048B57771785003400EB6175 /* meng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meng.png; sourceTree = "<group>"; };
-		048B577917850A4C00EB6175 /* UIViewController+Controls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Controls.h"; sourceTree = "<group>"; };
-		048B577A17850A4C00EB6175 /* UIViewController+Controls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Controls.m"; sourceTree = "<group>"; };
-		04B9D31517854A4B0050BFF4 /* meng2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meng2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,11 +83,11 @@
 		040586721783CCDC00292B11 /* iBasketBall */ = {
 			isa = PBXGroup;
 			children = (
-				04B9D31817856AC20050BFF4 /* category */,
-				040586911783CD0B00292B11 /* viewControllers */,
-				040586901783CCF200292B11 /* resources */,
-				0405868F1783CCE900292B11 /* app */,
+				0405867B1783CCDC00292B11 /* AppDelegate.h */,
+				0405867C1783CCDC00292B11 /* AppDelegate.m */,
 				040586841783CCDC00292B11 /* MainStoryboard.storyboard */,
+				040586871783CCDC00292B11 /* ViewController.h */,
+				040586881783CCDC00292B11 /* ViewController.m */,
 				040586731783CCDC00292B11 /* Supporting Files */,
 			);
 			path = iBasketBall;
@@ -103,67 +96,15 @@
 		040586731783CCDC00292B11 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				040586781783CCDC00292B11 /* main.m */,
-				0405867A1783CCDC00292B11 /* iBasketBall-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0405868F1783CCE900292B11 /* app */ = {
-			isa = PBXGroup;
-			children = (
-				0405867B1783CCDC00292B11 /* AppDelegate.h */,
-				0405867C1783CCDC00292B11 /* AppDelegate.m */,
-			);
-			name = app;
-			sourceTree = "<group>";
-		};
-		040586901783CCF200292B11 /* resources */ = {
-			isa = PBXGroup;
-			children = (
-				04B9D3171785661D0050BFF4 /* image */,
 				040586741783CCDC00292B11 /* iBasketBall-Info.plist */,
 				040586751783CCDC00292B11 /* InfoPlist.strings */,
+				040586781783CCDC00292B11 /* main.m */,
+				0405867A1783CCDC00292B11 /* iBasketBall-Prefix.pch */,
 				0405867E1783CCDC00292B11 /* Default.png */,
 				040586801783CCDC00292B11 /* Default@2x.png */,
 				040586821783CCDC00292B11 /* Default-568h@2x.png */,
 			);
-			name = resources;
-			sourceTree = "<group>";
-		};
-		040586911783CD0B00292B11 /* viewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				040586871783CCDC00292B11 /* ViewController.h */,
-				040586881783CCDC00292B11 /* ViewController.m */,
-			);
-			name = viewControllers;
-			sourceTree = "<group>";
-		};
-		04B9D3171785661D0050BFF4 /* image */ = {
-			isa = PBXGroup;
-			children = (
-				04B9D31517854A4B0050BFF4 /* meng2.png */,
-				048B57771785003400EB6175 /* meng.png */,
-			);
-			name = image;
-			sourceTree = "<group>";
-		};
-		04B9D31817856AC20050BFF4 /* category */ = {
-			isa = PBXGroup;
-			children = (
-				04B9D31917856ADB0050BFF4 /* controls */,
-			);
-			name = category;
-			sourceTree = "<group>";
-		};
-		04B9D31917856ADB0050BFF4 /* controls */ = {
-			isa = PBXGroup;
-			children = (
-				048B577917850A4C00EB6175 /* UIViewController+Controls.h */,
-				048B577A17850A4C00EB6175 /* UIViewController+Controls.m */,
-			);
-			name = controls;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,8 +163,6 @@
 				040586811783CCDC00292B11 /* Default@2x.png in Resources */,
 				040586831783CCDC00292B11 /* Default-568h@2x.png in Resources */,
 				040586861783CCDC00292B11 /* MainStoryboard.storyboard in Resources */,
-				048B57781785003400EB6175 /* meng.png in Resources */,
-				04B9D31617854A4B0050BFF4 /* meng2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +176,6 @@
 				040586791783CCDC00292B11 /* main.m in Sources */,
 				0405867D1783CCDC00292B11 /* AppDelegate.m in Sources */,
 				040586891783CCDC00292B11 /* ViewController.m in Sources */,
-				048B577B17850A4C00EB6175 /* UIViewController+Controls.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,20 +261,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBasketBall/iBasketBall-Prefix.pch";
 				INFOPLIST_FILE = "iBasketBall/iBasketBall-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/Havok/AnarchySDK/Lib/ios_xcode_anarchy/debug_v7,
-					/Havok/AnarchySDK/Lib/ios_xcode_anarchy/dev_v7,
-					/Havok/AnarchySDK/Lib/ios_xcode_anarchy/release_v7,
-					/Havok/AnarchySDK/ThirdParty/redistsdks/curl/7.22.0/iOS/lib/iphoneos/Debug,
-					/Havok/AnarchySDK/ThirdParty/redistsdks/curl/7.22.0/iOS/lib/iphoneos/Release,
-					/Havok/AnarchySDK/ThirdParty/redistsdks/curl/7.22.0/iOS/lib/iphonesimulator/Debug,
-					/Havok/AnarchySDK/ThirdParty/redistsdks/curl/7.22.0/iOS/lib/iphonesimulator/Release,
-					/Havok/AnarchySDK/ThirdParty/redistsdks/fmod/4.44.11/lib/ios,
-					/Havok/AnarchySDK/ThirdParty/redistsdks/GoogleAnalytics/2.0/iOS,
-					/Havok/AnarchySDK/ThirdParty/redistsdks/Lua/5.1.4/lib/iphoneos/Debug,
-					/Havok/AnarchySDK/ThirdParty/redistsdks/Lua/5.1.4/lib/iphoneos/Release,
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -348,20 +272,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBasketBall/iBasketBall-Prefix.pch";
 				INFOPLIST_FILE = "iBasketBall/iBasketBall-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/Havok/AnarchySDK/Lib/ios_xcode_anarchy/debug_v7,
-					/Havok/AnarchySDK/Lib/ios_xcode_anarchy/dev_v7,
-					/Havok/AnarchySDK/Lib/ios_xcode_anarchy/release_v7,
-					/Havok/AnarchySDK/ThirdParty/redistsdks/curl/7.22.0/iOS/lib/iphoneos/Debug,
-					/Havok/AnarchySDK/ThirdParty/redistsdks/curl/7.22.0/iOS/lib/iphoneos/Release,
-					/Havok/AnarchySDK/ThirdParty/redistsdks/curl/7.22.0/iOS/lib/iphonesimulator/Debug,
-					/Havok/AnarchySDK/ThirdParty/redistsdks/curl/7.22.0/iOS/lib/iphonesimulator/Release,
-					/Havok/AnarchySDK/ThirdParty/redistsdks/fmod/4.44.11/lib/ios,
-					/Havok/AnarchySDK/ThirdParty/redistsdks/GoogleAnalytics/2.0/iOS,
-					/Havok/AnarchySDK/ThirdParty/redistsdks/Lua/5.1.4/lib/iphoneos/Debug,
-					/Havok/AnarchySDK/ThirdParty/redistsdks/Lua/5.1.4/lib/iphoneos/Release,
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -386,7 +296,6 @@
 				0405868E1783CCDC00292B11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
