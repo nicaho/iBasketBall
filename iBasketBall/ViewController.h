@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIViewController+Controls.h"
+@interface ViewController : UIViewController{
+    UIButton *button;
 
-@interface ViewController : UIViewController
+}
 
 @end

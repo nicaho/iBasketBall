@@ -12,12 +12,14 @@
 
 - (void)dealloc
 {
-    [_window release];
-    [super dealloc];
+    return;
+    //[_window release];
+    //[super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
     // Override point for customization after application launch.
     return YES;
 }
